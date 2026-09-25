@@ -222,7 +222,7 @@ padding: 10px 20px;
 border: 2px solid black;
 box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
 width: clamp(237px, 31vw, 400px);
-background-color: white;
+background-color: mintcream;
 }
 #portfolio_contact_me_form{
     display: grid;
