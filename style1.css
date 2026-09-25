@@ -1,0 +1,267 @@
+html{
+font-family:'Courier New', Courier, monospace;
+background-color: aliceblue;
+color: black;
+}
+body{
+margin: 0;
+}
+#website_navbar{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+margin-bottom: 15px;
+padding: 10px 20px;
+border: 2px solid aliceblue;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+gap: 10px;
+}
+@media screen and (max-width:640px) {
+#website_navbar{
+flex-direction: column;
+}
+}
+#mainheadingportfolio{
+font-size: clamp(30px, 5.3vw, 50px);
+}
+#navlinksection{
+align-items: center;
+display: flex;
+justify-content: flex-start;
+font-size: clamp(12.3px, 2.8vw, 16px);
+
+}
+.navlinks{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+#herosection{
+display: grid;
+grid-template-columns: 1fr 2fr;
+align-items: center;
+margin: 15px 0;
+padding: 10px 20px;
+border: 2px solid aliceblue;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+gap: 15px;
+}
+#profilediv{
+width: clamp(120px, 20vw, 200px);
+height: clamp(120px, 20vw, 200px);
+justify-self: center;
+}
+#profilediv img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border: 1px solid aliceblue;
+border-radius: 100px;
+}
+#h2herosec{
+font-size:clamp(10px, 4vw, 35px);
+}
+#herosecpara{
+line-height: 17px;
+letter-spacing: .5px;
+text-align: justify;
+font-size: clamp(10px, 3vw, 20px);
+margin-bottom: 15px;
+font-family: "Poppins", Sans-serif;
+}
+#herosecparasecond{
+line-height: 17px;
+letter-spacing: .5px;
+text-align: justify;
+font-size: clamp(10px, 3vw, 20px);
+margin-bottom: 40px;
+font-family: "Poppins", Sans-serif;
+}
+#heroseclink{
+    margin-bottom: 20px;
+}
+.heroseclink{
+text-decoration: none;
+color: black;
+font-weight: bold;
+border: 1px solid aliceblue;
+padding: 3px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px 3px rgba(195.5, 195.5, 195.5, 0.5);
+font-size: clamp(10px, 3vw, 16px);
+}
+.heroseclink:hover{
+background-color:#6C63FF;
+transition:background-color 1s ease-in;
+}
+.myskillpara, .aboutmepara {
+line-height: 19px;
+letter-spacing: .5px;
+text-align: justify;
+font-size: clamp(10px, 3vw, 20px);
+margin-bottom: 40px;
+font-family: "Poppins", Sans-serif;
+}
+#aboutsection{
+margin: 15px 0;
+padding: 10px 20px;
+border: 2px solid aliceblue;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+}
+#h2aboutme, #h2projects, #h2skill{
+font-family: "Poppins", Sans-serif;
+text-align: center;
+font-size: xx-large;
+margin-bottom: 40px;
+text-transform: uppercase;
+}
+#skillsections{
+margin: 15px 0;
+padding: 10px 20px;
+border: 2px solid aliceblue;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+}
+#skillslist{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 15px;
+width: 80%;
+margin: 0 auto;
+list-style-type: none;
+padding-left: 20px;
+}
+@media screen and (max-width:768px) {
+#skillslist{
+grid-template-columns: repeat(2,1fr);
+}
+}
+@media screen and (max-width:558px) {
+#skillslist{
+grid-template-columns: repeat(1,1fr);
+}
+}
+.allskills{
+border: 2px solid black;
+box-shadow:0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+border-radius: 10px;
+padding: 40px 0px;
+min-width: 0px;
+text-align: center;
+line-height: 10px;
+font-size: clamp(16px, 4vw, 25px);
+letter-spacing: 1px;
+font-weight: bolder;
+}
+#projectsection{
+margin: 15px 0;
+padding: 10px 20px;
+border: 2px solid aliceblue;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+}
+#allprojectsheadingdiv{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 20px;
+width: 100%;
+margin: 0 auto;
+}
+@media screen and (max-width:928px) {
+#allprojectsheadingdiv{
+grid-template-columns: repeat(2,1fr);
+}
+}
+@media screen and (max-width:632px) {
+#allprojectsheadingdiv{
+grid-template-columns: repeat(1,1fr);
+}
+}
+.myprojectsclass{
+border: 2px solid black;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+border-radius: 10px;
+padding: 30px;
+min-width: 0px;
+letter-spacing: 1px;
+}
+.myprojectsheading{
+display: flex;
+justify-content: space-between;
+gap: 15px;
+}
+.projectcarddiagram {
+font-size: xx-large;
+}
+.projectcardheading{
+font-family: "Poppins", Sans-serif;
+font-size: clamp(16px, 4vw, 25px);
+font-weight: 600;
+color: #000000;
+text-transform: uppercase;
+}
+.projectcarddescription{
+font-family: "Poppins", Sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: #000000;
+}
+#contactsection{
+margin-top: 25px;
+margin-bottom: 50px;
+}
+#h2contact{
+margin-bottom: 25px;
+text-align: center;
+font-weight: bolder;
+font-size: xx-large;
+line-height: 78px;
+letter-spacing: 1px;
+}
+#contactsectionform{
+margin: 15px auto;
+padding: 10px 20px;
+border: 2px solid black;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+width: clamp(237px, 31vw, 400px);
+background-color: white;
+}
+#portfolio_contact_me_form{
+    display: grid;
+}
+#name, #email, #mobile_number, #message{
+border: 2px solid black;
+width: 90%;
+padding: 10px;
+border-radius: 5px;
+font-size: clamp(8px, 2vw, 14px);
+margin-bottom: 27px;
+}
+#message{
+    resize: vertical;
+
+}
+.formcontents{
+display: inline-block;
+font-size: clamp(12px, 2vw, 14px);
+
+}
+#submit_button{
+padding: 9px 7px;
+margin-bottom: 20px;
+font-size: clamp(9px, 1.3vw, 17px);
+font-family: inherit;
+font-weight: 500;
+background-color: rgb(245, 18, 18);
+color: white;
+box-shadow: none;
+width: 20%;
+}
+#submit_button:hover{
+background-color: aqua;
+transition:background-color .2s ease-in-out ;
+}
+#footersection{
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+box-shadow: 0px 0px 10px 0px rgba(195.5, 195.5, 195.5, 0.5);
+}   
